@@ -17,9 +17,9 @@ function Footer() {
                     < Button name="Contact Me" />
                 </div>
                 <div className='col-md-4 text-center text-white' >
-                <i class="bi bi-linkedin" style={{ fontSize: 40 ,padding:10 }}></i>
-                <i class="bi bi-facebook" style={{ fontSize: 40 ,padding:10 }}></i>
-                <i class="bi bi-twitter" style={{ fontSize: 40 ,padding:10 }}></i>
+                <i className="bi bi-linkedin" style={{ fontSize: 40 ,padding:10 }}></i>
+                <i className="bi bi-facebook" style={{ fontSize: 40 ,padding:10 }}></i>
+                <i className="bi bi-twitter" style={{ fontSize: 40 ,padding:10 }}></i>
                 <p> Copyrights@alaafarouk </p>
                 </div>
             </div>

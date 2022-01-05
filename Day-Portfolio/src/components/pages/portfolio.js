@@ -40,23 +40,26 @@ class Portfolio extends React.Component{
     return (
         <div className="container">
             <h1>Portfolio</h1>
-            <div className="row" >
+            <div className="row  gap-3 text-center" style={{justifyContent:'center'}} >
                 {
                     this.state.cardInfo.map((item, index) => {
                         return (
-                            <div className={`card text-center text-white col-md-4 ${item.color}`} style={{height:200, width :'100' ,textAlign:'center' ,  fontSize:20 , paddingTop:50}}>
-                                <div className="card-body" style={{textAlign:'center'}}>
-                                    <p className="card-text text-center" style={{textAlign:'center' , justifyContent:'center'}} key={index}>{item.title}</p>
+                            <div className={`card text-center text-white col-md-3 ${item.color}`} style={{height:300, width :'100' ,textAlign:'center' , padding:70, fontSize:20}}>
+                                <div className="card-body" >
+                                    <p className="card-text text-center" style={{textAlign:'center'}} key={index}>{item.title}</p>
+                                    <hr className="bg-light text-center" style={{ size: '5' }} />
                                 </div>
                             </div>
                         )
                     })
                 }
             </div>
-        </div>
+        </div> 
 
     );
 }
 }
 
 export default Portfolio;
+
+// style={{height:200, width :'100' ,textAlign:'center' ,  fontSize:20}}

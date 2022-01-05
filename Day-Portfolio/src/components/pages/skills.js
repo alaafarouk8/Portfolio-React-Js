@@ -5,7 +5,7 @@ class Skills extends React.Component
     render () {
        return (
         <div className="bg-dark text-center text-white" style={{ paddingBottom: '50' }}>
-            <div className='row'>
+            <div className="row">
                 <h1 className="text-center text-white" style={{ fontSize: 50, textShadow: '20px', paddingTop: 50 }}>
                     Skills
                  </h1>
@@ -13,8 +13,8 @@ class Skills extends React.Component
                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
                 </p>
             </div>
-            <div className='row'>
-                <div className='col-md-4'>
+            <div className="row">
+                <div className="col-md-4">
                     <h1> My Focus </h1>
                     <hr className="bg-light text-center" style={{ size: '3' }} />
                     <h5>UX/Ui Design</h5>
@@ -22,9 +22,8 @@ class Skills extends React.Component
                     <h5>Responsive Design</h5>
                     <h5>Mobile App Design</h5>
                 </div>
-                <div className='col-md-8'>
+                <div className="col-md-8">
                     <p> HTML </p> <ProgressBar value="98"/> 
-                    
                     <br></br>
                     <p> CSS <ProgressBar value="95"/> </p>
                     <br></br>
